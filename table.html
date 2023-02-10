@@ -5,10 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>table</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body{
+            background-color: black;
+            /* width: 900px; */
+        }
+        th{
+            color: yellow;
+        }
+    </style>
 </head>
-<body>
-  <table border="1">
-    <caption>DATA TABLE</caption>
+<body style="background-color: pink;">
+    <h1>TABLES CAN BREAK</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Distinctio maxime, <br> rerum non mollitia magnam eligendi <br> fugit autem voluptatibus perspiciatis ratione.</p>
+    <hr>
+  <table border="1" style="width: 600px; text-align: center;">
+    <caption> <span>DATA</span> TABLE</caption>
     <tr><th>S/No</th>
     <th>DATA</th>
     <th>AGE</th>  </tr>
@@ -22,34 +35,34 @@
     <td>14/02</td>
     <td>12</td></tr>
   </table>  
-  <table border="1">
+  <table border="1" style="width: 600px;">
     <tr> <th rowspan="2">Marks</th>
     <th colspan="2">Number of Students</th>
     <th rowspan="2">Total</th>
     </tr>
       <th>Males</th>
     <th>Females</th>
-    <tr>
+    <tr style="text-align: center;">
         <td>30-40</td>
     <td>8</td>
     <td>6</td>
     <th>14</th></tr>
-    <tr>
+    <tr style="text-align: center;">
         <td>40-50</td>
     <td>16</td>
     <td>10</td>
     <th>26</th></tr>
-    <tr>
+    <tr style="text-align: center;">
         <td>50-60</td>
     <td>14</td>
     <td>16</td>
     <th>30</th></tr>
-    <tr>
+    <tr style="text-align: center;">
         <td>60-70</td>
     <td>12</td>
     <td>8</td>
     <th>20</th></tr>
-    <tr>
+    <tr style="text-align: center;">
         <td>70-80</td>
     <td>6</td>
     <td>4</td>
@@ -60,5 +73,6 @@
     <th>44</th>
     <th>100</th></tr>
   </table>
+  <!-- check this work -->
 </body>
 </html>
